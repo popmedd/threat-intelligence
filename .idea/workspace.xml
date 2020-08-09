@@ -6,15 +6,26 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="219fb670-bc5b-4598-9afd-91bbae37a942" name="Default" comment="fixup AttributeError">
+    <list default="true" id="219fb670-bc5b-4598-9afd-91bbae37a942" name="Default" comment="fixup mail content missing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notice/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/notice/mail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notice/page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/notice/page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +40,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="91a718c6-fd40-436f-9304-59855371996b" />
   </component>
   <component name="JupyterTrust" id="33c483ed-2b78-45fd-ad53-3e79bce00ed0" />
   <component name="ProjectId" id="1b5e9XtL7KC0z6EDnH2PnpNEECi" />
@@ -387,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596981810804</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixup mail content missing">
+      <created>1596982894316</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596982894316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +443,8 @@
     <MESSAGE value="fixup" />
     <MESSAGE value="fixup log dir" />
     <MESSAGE value="fixup AttributeError" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixup AttributeError" />
+    <MESSAGE value="fixup mail content missing" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixup mail content missing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596982220788">
@@ -492,14 +515,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1596967498086" />
+    <state x="595" y="280" key="MultipleFileMergeDialog" timestamp="1596982879474">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="595" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596982879474" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1596970167393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596970167393" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596979292224">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596982909072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596979292224" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596982909072" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1596982301498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -514,11 +541,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/notice/mail.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/notice/mail.py</url>
           <line>54</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
@@ -531,7 +553,7 @@
     <SUITE FILE_PATH="coverage/threat_broadcast$anquanke.coverage" NAME="anquanke Coverage Results" MODIFIED="1596968243471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawler" />
     <SUITE FILE_PATH="coverage/threat_broadcast$redqueen.coverage" NAME="redqueen Coverage Results" MODIFIED="1596967400817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawler" />
     <SUITE FILE_PATH="coverage/threat_broadcast$main.coverage" NAME="main Coverage Results" MODIFIED="1596959291426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/threat_intelligence$main.coverage" NAME="main Coverage Results" MODIFIED="1596982289076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/threat_intelligence$main.coverage" NAME="main Coverage Results" MODIFIED="1596982373836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/threat_broadcast$vas.coverage" NAME="vas Coverage Results" MODIFIED="1596968191897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawler" />
   </component>
 </project>
