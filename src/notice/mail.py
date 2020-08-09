@@ -52,11 +52,11 @@ def format_content(cves: typing.Dict):
     src_infos = []
     cve_infos = []
     total = 0
-    for src, _cves in cves.items():
+    for source, _cves in cves.items():
         cnt = len(_cves)
         total += cnt
         src_infos.append(
-            src_tpl % {"cnt": cnt, "url": src.HOME_PAGE(), "src": src.name_ch}
+            src_tpl % {"cnt": cnt, "url": source.home_page, "src": source.name_ch}
         )
         map(lambda cve: cve_infos.append(cve.to_html()), _cves)
 
@@ -73,8 +73,8 @@ def load_receivers():
     for dirPath, dirNames, fileNames in os.walk(config.RECV_DIR):
         for fileName in fileNames:
             if fileName.startswith("mail") and fileName.endswith(".dat"):
-                filePath = "%s/%s" % (config.RECV_DIR, fileName)
-                with open(filePath, "r") as file:
+                file_path = "%s/%s" % (config.RECV_DIR, fileName)
+                with open(file_path, "r") as file:
                     lines = file.readlines()
                     for line in lines:
                         line = line.strip()

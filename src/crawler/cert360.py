@@ -16,15 +16,6 @@ class Cert360(BaseCrawler):
         self.url_list = "https://cert.360.cn/warning/searchbypage"
         self.url_cve = "https://cert.360.cn/warning/detail?id="
 
-    def NAME_CH(self):
-        return self.name_ch
-
-    def NAME_EN(self):
-        return self.name_en
-
-    def HOME_PAGE(self):
-        return self.home_page
-
     def get_cves(self, limit=6):
         params = {"length": limit, "start": 0}
 
