@@ -12,8 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="219fb670-bc5b-4598-9afd-91bbae37a942" name="Default" comment="fixup AttributeError">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawler/cert360.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawler/cert360.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/notice/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/notice/mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notice/page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/notice/page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,6 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
@@ -161,7 +161,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="-mp &quot;jyranhhougoxbijh&quot;" />
+      <option name="PARAMETERS" value="-mg" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -314,6 +314,14 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.anquanke" />
+      <item itemvalue="Python.nsfocus" />
+      <item itemvalue="Python.qianxin" />
+      <item itemvalue="Python.redqueen" />
+      <item itemvalue="Python.vas" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.anquanke" />
@@ -372,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596979287742</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixup AttributeError">
+      <created>1596981810804</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596981810804</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,10 +424,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fixup AttributeError" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596973196616">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596982220788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596973196616" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596982220788" />
     <state x="668" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596956913514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -421,10 +436,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596907721718" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596970264024">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596982295405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596970264024" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596982295405" />
     <state x="723" y="349" width="474" height="504" key="#com.intellij.tools.ToolEditorDialog" timestamp="1596970166719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -441,38 +456,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="809" y="441" key="Github.Dialog.Accounts.Choose/0.0.1920.1040@0.0.1920.1040" timestamp="1596979300232" />
-    <state width="1877" height="259" key="GridCell.Tab.0.bottom" timestamp="1596981773876">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1596982348557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596981773876" />
-    <state width="1877" height="259" key="GridCell.Tab.0.center" timestamp="1596981773876">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596982348557" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1596982348556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596981773876" />
-    <state width="1877" height="259" key="GridCell.Tab.0.left" timestamp="1596981773876">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596982348556" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1596982348556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596981773876" />
-    <state width="1877" height="259" key="GridCell.Tab.0.right" timestamp="1596981773876">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596982348556" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1596982348556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596981773876" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1596967262618">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596982348556" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1596982348557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596967262618" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1596967262618">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596982348557" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1596982348557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596967262618" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1596967262618">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596982348557" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1596982348557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596967262618" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1596967262618">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596982348557" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1596982348557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596967262618" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596982348557" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1596967498086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -485,10 +500,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596979292224" />
-    <state x="662" y="252" width="678" height="660" key="find.popup" timestamp="1596981762875">
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1596982301498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="678" height="660" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596981762875" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1596982301498" />
+    <state x="662" y="252" width="678" height="660" key="find.popup" timestamp="1596982124287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="252" width="678" height="660" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596982124287" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/notice/mail.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/notice/mail.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/threat_broadcast$qianxin.coverage" NAME="qianxin Coverage Results" MODIFIED="1596960722780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawler" />
@@ -496,7 +531,7 @@
     <SUITE FILE_PATH="coverage/threat_broadcast$anquanke.coverage" NAME="anquanke Coverage Results" MODIFIED="1596968243471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawler" />
     <SUITE FILE_PATH="coverage/threat_broadcast$redqueen.coverage" NAME="redqueen Coverage Results" MODIFIED="1596967400817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawler" />
     <SUITE FILE_PATH="coverage/threat_broadcast$main.coverage" NAME="main Coverage Results" MODIFIED="1596959291426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/threat_intelligence$main.coverage" NAME="main Coverage Results" MODIFIED="1596973343561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/threat_intelligence$main.coverage" NAME="main Coverage Results" MODIFIED="1596982289076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/threat_broadcast$vas.coverage" NAME="vas Coverage Results" MODIFIED="1596968191897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawler" />
   </component>
 </project>

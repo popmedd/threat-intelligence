@@ -47,7 +47,7 @@ def format_content(cves: typing.Dict):
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
 <br/>
-<font color="red">【情报收集与播报支持】</font> https://sk4ct0r.github.io/threat/
+<font color="red">【情报收集与播报支持】</font> https://skactor.github.io/threat-intelligence/
 """
     src_infos = []
     cve_infos = []
@@ -58,7 +58,7 @@ def format_content(cves: typing.Dict):
         src_infos.append(
             src_tpl % {"cnt": cnt, "url": source.home_page, "src": source.name_ch}
         )
-        map(lambda cve: cve_infos.append(cve.to_html()), _cves)
+        list(map(lambda cve: cve_infos.append(cve.to_html()), _cves))
 
     content = mail_tpl % {
         "total": total,

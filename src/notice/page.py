@@ -43,9 +43,9 @@ def to_page(top_limit=10):
 
 
 def load_tpl():
-    html_tpl = open(config.HTML_TPL_PATH, "r").read()
-    table_tpl = open(config.TABLE_TPL_PATH, "r").read()
-    row_tpl = open(config.ROW_TPL_PATH, "r").read()
+    html_tpl = open(config.HTML_TPL_PATH, "rb").read().decode("utf8")
+    table_tpl = open(config.TABLE_TPL_PATH, "rb").read().decode("utf8")
+    row_tpl = open(config.ROW_TPL_PATH, "rb").read().decode("utf8")
 
     return html_tpl, table_tpl, row_tpl
 
