@@ -44,8 +44,6 @@ def main(
     mail_smtp,
     mail_user,
     mail_pass,
-    qq_user,
-    qq_pass,
 ):
     if help:
         log.info(help_info())
@@ -79,8 +77,6 @@ def get_sys_args(sys_args):
     mail_smtp = "smtp.qq.com"
     mail_user = "threatbroadcast@qq.com"
     mail_pass = ""
-    qq_user = ""
-    qq_pass = ""
 
     idx = 1
     size = len(sys_args)
