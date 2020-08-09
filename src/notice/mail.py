@@ -1,5 +1,6 @@
 import os
 import smtplib
+import typing
 from email.mime.text import MIMEText
 from email.header import Header
 from src import config
@@ -32,7 +33,7 @@ def to_mail(mail_by_github, cves, smtp, sender, password):
             log.error("[邮件] 推送威胁情报失败")
 
 
-def format_content(cves):
+def format_content(cves: typing.Dict):
     src_tpl = '    <li><font color="red">%(cnt)d</font>条由 [<a href="%(url)s">%(src)s</a>] 提供</li>'
     mail_tpl = """
 <h3>发现最新威胁情报<font color="red">%(total)d</font>条：</h3>
@@ -51,7 +52,7 @@ def format_content(cves):
     src_infos = []
     cve_infos = []
     total = 0
-    for src, _cves in cves.iteritems():
+    for src, _cves in cves.items():
         cnt = len(_cves)
         total += cnt
         src_infos.append(
