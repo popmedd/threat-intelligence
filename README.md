@@ -5,7 +5,7 @@
 
 ## 运行环境
 
-![](https://img.shields.io/badge/Python-2.7%2B-brightgreen.svg)  ![](https://img.shields.io/badge/PyCharm-4.0.4%2B-brightgreen.svg)
+![](https://img.shields.io/badge/python-%203.6%20%7C%203.7%203.8-brightgreen.svg)  ![](https://img.shields.io/badge/PyCharm-4.0.4%2B-brightgreen.svg)
 
 
 ## 项目介绍
